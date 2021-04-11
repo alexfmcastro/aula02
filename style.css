@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+}
+
+hr {
+	border: 1px dashed magenta;
+}
+
+h1 {
+	text-shadow: #2997f5 0 0 10px;
+}
+
+.indice {
+	box-shadow: lime 20px 20px 100px;
+	width: fit-content;
+	border-radius: 30px;
+	padding: 2px 10px 10px 10px
+}
+
+.imagens {
+	float: right;
+	position: relative;
+	width: 360px;
+}
+
+.imagens img {
+	position: absolute;
+	width: 100%;
+}
+
+.img2 {
+	transition: opacity 1s;
+	opacity: 0;
+}
+
+.imagens:hover .img2 {
+	opacity: 1;
+}
+
+a {
+	display: inline-block;
+	color: #2997f5;
+	transition: transform 1.0s;
+}
+
+a:visited {
+	color: teal;
+}
+
+a:hover {
+	transform: scale(9.2);
+}
